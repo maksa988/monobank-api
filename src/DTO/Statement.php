@@ -3,7 +3,7 @@
 namespace Maksa988\MonobankAPI\DTO;
 
 /**
- * Class Statement
+ * Class Statement.
  *
  * @property string $id
  * @property int $time
@@ -23,16 +23,16 @@ class Statement extends AbstractDTO
      * Statement constructor.
      *
      * @param string $id
-     * @param int $time
+     * @param int    $time
      * @param string $description
-     * @param int $mcc
-     * @param bool $hold
-     * @param int $amount
-     * @param int $operationAmount
-     * @param int $currencyCode
-     * @param int $commissionRate
-     * @param int $cashbackAmount
-     * @param int $balance
+     * @param int    $mcc
+     * @param bool   $hold
+     * @param int    $amount
+     * @param int    $operationAmount
+     * @param int    $currencyCode
+     * @param int    $commissionRate
+     * @param int    $cashbackAmount
+     * @param int    $balance
      */
     public function __construct(string $id, int $time, string $description, int $mcc, bool $hold,
                                 int $amount, int $operationAmount, int $currencyCode,

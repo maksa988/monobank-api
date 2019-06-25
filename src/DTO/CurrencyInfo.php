@@ -3,7 +3,7 @@
 namespace Maksa988\MonobankAPI\DTO;
 
 /**
- * Class CurrencyInfo
+ * Class CurrencyInfo.
  *
  * @property  int $currencyCodeA
  * @property  int $currencyCodeB
@@ -16,12 +16,13 @@ class CurrencyInfo extends AbstractDTO
 {
     /**
      * Personal constructor.
-     * @param int $currencyCodeA
-     * @param int $currencyCodeB
+     *
+     * @param int       $currencyCodeA
+     * @param int       $currencyCodeB
      * @param \DateTime $date
-     * @param float $rateSell
-     * @param float $rateBuy
-     * @param float $rateCross
+     * @param float     $rateSell
+     * @param float     $rateBuy
+     * @param float     $rateCross
      */
     public function __construct(int $currencyCodeA, int $currencyCodeB, \DateTime $date,
                                 float $rateSell, float $rateBuy, float $rateCross)

@@ -10,5 +10,5 @@ $api = new MonobankAPI('YOUR_TOKEN');
  * Get currencies
  */
 foreach ($api->currency() as $currency) {
-    echo $currency->__toString() . '\n';
+    echo $currency->__toString().'\n';
 }

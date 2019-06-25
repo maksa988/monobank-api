@@ -3,7 +3,7 @@
 namespace Maksa988\MonobankAPI\DTO;
 
 /**
- * Class UserInfo
+ * Class UserInfo.
  *
  * @property  string $name
  * @property  array|Account[] $accounts
@@ -13,7 +13,7 @@ class UserInfo extends AbstractDTO
     /**
      * UserInfo constructor.
      *
-     * @param string $name
+     * @param string          $name
      * @param array|Account[] $accounts
      */
     public function __construct(string $name, array $accounts)
