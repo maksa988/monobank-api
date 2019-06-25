@@ -51,6 +51,8 @@ class MonobankAPITest extends TestCase
     /** @test */
     public function invalid_token_when_request_with_invalid_token_to_private_methods()
     {
+        sleep(5);
+
         $this->expectException(InvalidToken::class);
 
         $this->api->personalInfo();

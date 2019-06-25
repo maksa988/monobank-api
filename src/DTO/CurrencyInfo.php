@@ -24,8 +24,8 @@ class CurrencyInfo extends AbstractDTO
      * @param float     $rateBuy
      * @param float     $rateCross
      */
-    public function __construct(int $currencyCodeA, int $currencyCodeB, \DateTime $date,
-                                float $rateSell, float $rateBuy, float $rateCross)
+    public function __construct($currencyCodeA, $currencyCodeB, \DateTime $date,
+                                $rateSell, $rateBuy, $rateCross)
     {
         $this->data['currencyCodeA'] = $currencyCodeA;
         $this->data['currencyCodeB'] = $currencyCodeB;
