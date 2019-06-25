@@ -46,9 +46,9 @@ class CurrencyInfo extends AbstractDTO
             $data['currencyCodeA'],
             $data['currencyCodeB'],
             (new \DateTime())->setTimestamp($data['date']),
-            $data['rateSell'] ?? 0.0,
-            $data['rateBuy'] ?? 0.0,
-            $data['rateCross'] ?? 0.0
+            isset($data['rateSell']) ? $data['rateSell'] : 0.0,
+            isset($data['rateBuy']) ? $data['rateBuy'] : 0.0,
+            isset($data['rateCross']) ? $data['rateCross'] : 0.0
         );
     }
 }

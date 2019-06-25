@@ -10,11 +10,11 @@ matrix:
     - php: 5.6
       env: setup=lowest phpunit_VERSION=~6.0
     - php: 7.1
-      env: setup=lowest phpunit_VERSION=^7.0
+      env: setup=lowest phpunit_VERSION=~6.0
     - php: 7.2
-      env: setup=lowest phpunit_VERSION=^8.0
+      env: setup=lowest phpunit_VERSION=~6.0
     - php: 7.3
-      env: setup=lowest phpunit_VERSION=^8.0
+      env: setup=lowest phpunit_VERSION=~6.0
 
 sudo: false
 
