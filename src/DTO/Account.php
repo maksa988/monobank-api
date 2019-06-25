@@ -3,7 +3,7 @@
 namespace Maksa988\MonobankAPI\DTO;
 
 /**
- * Class Account
+ * Class Account.
  *
  * @property  string $id
  * @property  int $balance
@@ -15,10 +15,11 @@ class Account extends AbstractDTO
 {
     /**
      * Personal constructor.
+     *
      * @param string $id
-     * @param int $balance
-     * @param int $creditLimit
-     * @param int $currencyCode
+     * @param int    $balance
+     * @param int    $creditLimit
+     * @param int    $currencyCode
      * @param string $cashbackType
      */
     public function __construct(string $id, int $balance, int $creditLimit, int $currencyCode, string $cashbackType)

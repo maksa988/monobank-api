@@ -21,7 +21,7 @@ class Exception extends BaseException
     {
         $error = \GuzzleHttp\json_decode((string) $response->getBody(), true);
 
-        $message = 'MonobankAPI: ' . $error['errorDescription'];
+        $message = 'MonobankAPI: '.$error['errorDescription'];
 
         parent::__construct($message, $response->getStatusCode());
     }
@@ -33,5 +33,4 @@ class Exception extends BaseException
     {
         return $this->response;
     }
-
 }

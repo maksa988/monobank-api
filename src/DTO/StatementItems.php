@@ -3,7 +3,7 @@
 namespace Maksa988\MonobankAPI\DTO;
 
 /**
- * Class StatementItems
+ * Class StatementItems.
  *
  * @property  array|Statement[] $items
  */

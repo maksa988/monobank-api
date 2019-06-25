@@ -11,7 +11,7 @@ abstract class AbstractDTO
      *
      * @return AbstractDTO
      */
-    public abstract static function fromArray(array $data);
+    abstract public static function fromArray(array $data);
 
     /**
      * @param mixed $name
