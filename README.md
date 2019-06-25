@@ -49,7 +49,7 @@ $api->personalInfo();
  * 
  * Returns instance of \Maksa988\MonobankAPI\DTO\StatementItems
  */
-$api->personalInfo(\DateTime $from, $account = 0, \DateTime $to = null);
+$api->personalStatement(\DateTime $from, $account = 0, \DateTime $to = null);
 ```
 
 ## Changelog
