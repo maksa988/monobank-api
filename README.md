@@ -10,7 +10,7 @@ PHP client for MonoBank API services (https://api.monobank.ua/docs/)
 
 - List of monobank currency rates
 - Information about the client and the list of his accounts
-- Receive an extract
+- Get statement
 
 #### PHP >= 5.6.4
 
