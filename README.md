@@ -1,5 +1,11 @@
 # Monobank API Client
 
+[![Latest Stable Version](https://poser.pugx.org/maksa988/monobank-api/v/stable)](https://packagist.org/packages/maksa988/monobank-api)
+[![Build Status](https://travis-ci.org/maksa988/monobank-api.svg?branch=master)](https://travis-ci.org/maksa988/monobank-api)
+[![StyleCI](https://github.styleci.io/repos/193751164/shield?branch=master)](https://github.styleci.io/repos/193751164)
+[![Total Downloads](https://img.shields.io/packagist/dt/maksa988/monobank-api.svg?style=flat-square)](https://packagist.org/packages/maksa988/monobank-api)
+[![License](https://poser.pugx.org/maksa988/monobank-api/license)](https://packagist.org/packages/maksa988/monobank-api)
+
 PHP client for MonoBank API services (https://api.monobank.ua/docs/)
 
 - List of monobank currency rates
