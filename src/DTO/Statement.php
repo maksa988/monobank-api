@@ -6,7 +6,7 @@ namespace Maksa988\MonobankAPI\DTO;
  * Class Statement.
  *
  * @property string $id
- * @property int $time
+ * @property \DateTime $time
  * @property string $description
  * @property int $mcc
  * @property bool $hold
@@ -23,7 +23,7 @@ class Statement extends AbstractDTO
      * Statement constructor.
      *
      * @param string $id
-     * @param int    $time
+     * @param \DateTime $time
      * @param string $description
      * @param int    $mcc
      * @param bool   $hold
@@ -55,6 +55,8 @@ class Statement extends AbstractDTO
      * @param array $data
      *
      * @return Statement
+     *
+     * @throws \Exception
      */
     public static function fromArray(array $data)
     {
