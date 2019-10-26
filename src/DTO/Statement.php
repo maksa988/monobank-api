@@ -34,7 +34,7 @@ class Statement extends AbstractDTO
      * @param int    $cashbackAmount
      * @param int    $balance
      */
-    public function __construct(string $id, int $time, string $description, int $mcc, bool $hold,
+    public function __construct(string $id, \DateTime $time, string $description, int $mcc, bool $hold,
                                 int $amount, int $operationAmount, int $currencyCode,
                                 int $commissionRate, int $cashbackAmount, int $balance)
     {
