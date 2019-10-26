@@ -2,7 +2,7 @@
 
 All notable changes to `maksa988/monobank-api` will be documented in this file
 
-## 1.0.0 - 2019-10-27
+## 1.1.0 - 2019-10-27
 
 - Fixed `DTO\Statement` constructor `$time` type argument from `int` to `\DateTime`
 
